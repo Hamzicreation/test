@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Bridge Connecting Lines between Mesh Nodes -->
+        <path
+            android:pathData="M34,44 L54,34 L74,44 L74,64 L54,74 L34,64 Z"
+            android:strokeColor="#2DD4BF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+        <path
+            android:pathData="M34,44 L74,64"
+            android:strokeColor="#34D399"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M34,64 L74,44"
+            android:strokeColor="#34D399"
+            android:strokeWidth="2"
+            android:strokeLineCap="round" />
+        <path
+            android:pathData="M54,34 L54,74"
+            android:strokeColor="#6EE7B7"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round" />
+
+        <!-- Speech tail from bottom node making it a chat bubble -->
+        <path
+            android:pathData="M54,74 L44,82 L50,74 Z"
+            android:fillColor="#10B981" />
+
+        <!-- Central Mesh Node -->
+        <path
+            android:pathData="M54,54 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0"
+            android:fillColor="#FFFFFF" />
+        <path
+            android:pathData="M54,54 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0"
+            android:fillColor="#0D9488" />
+
+        <!-- Top Node -->
+        <path
+            android:pathData="M54,34 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#34D399" />
+        <path
+            android:pathData="M54,34 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Left Top Node -->
+        <path
+            android:pathData="M34,44 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#38BDF8" />
+        <path
+            android:pathData="M34,44 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Right Top Node -->
+        <path
+            android:pathData="M74,44 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#38BDF8" />
+        <path
+            android:pathData="M74,44 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Left Bottom Node -->
+        <path
+            android:pathData="M34,64 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#34D399" />
+        <path
+            android:pathData="M34,64 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Right Bottom Node -->
+        <path
+            android:pathData="M74,64 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#34D399" />
+        <path
+            android:pathData="M74,64 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+
+        <!-- Bottom Center Node -->
+        <path
+            android:pathData="M54,74 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+            android:fillColor="#10B981" />
+        <path
+            android:pathData="M54,74 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0"
+            android:fillColor="#FFFFFF" />
+    </group>
+</vector>
